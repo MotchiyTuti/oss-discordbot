@@ -1,0 +1,92 @@
+[help]
+open = """
+**!open <server_name>**
+- Start the specified server.
+- Example: `!open my_server`
+
+**!open all**
+- Start all servers listed in `default.pkl`.
+- Example: `!open all`
+"""
+
+close = """
+**!close <server_name>**
+- Stop the specified server.
+- Example: `!close my_server`
+
+**!close all**
+- Stop all running servers.
+- Example: `!close all`
+"""
+
+status = """
+**!status <server_name>**
+- Check the status of the specified server.
+- Example: `!status my_server`
+
+**!status ls**
+- List all running servers.
+- Example: `!status ls`
+"""
+
+jobsconf = """
+**!jobsconf**
+- Reload the Jobs plugin on the economy server.
+- Example: `!jobsconf`
+"""
+
+dsconf = """
+**!dsconf ls**
+- Show all servers listed in `default.pkl`.
+- Example: `!dsconf ls`
+
+**!dsconf add <server_name>**
+- Add a server to `default.pkl`.
+- Example: `!dsconf add my_server`
+
+**!dsconf rem <server_name>**
+- Remove a server from `default.pkl`.
+- Example: `!dsconf rem my_server`
+"""
+
+help = """
+**!help**
+- Show a list of available commands.
+- Example: `!help`
+
+**!help <command>**
+- Show detailed help for a specific command.
+- Example: `!help open`
+"""
+
+admin_list = """
+**Available commands:**
+- `!open all/<server_name>`: Start servers.
+- `!close all/<server_name>`: Stop servers.
+- `!status ls/<server_name>`: Check server status.
+- `!jobsconf`: Reload Jobs plugin.
+- `!dsconf ls/add/rem <server_name>`: Manage server list.
+- `!help`: Show help.
+- `!help <command>`: Show detailed help for a command.
+"""
+
+user_list = """
+**Available commands:**
+- `!open all/<server_name>`: Start servers.
+- `!close all/<server_name>`: Stop servers.
+- `!status ls/<server_name>`: Check server status.
+- `!help`: Show help.
+- `!help <command>`: Show detailed help for a command.
+"""
+
+[system]
+no_permission = "権限がありません"
+processing = "処理中..."
+invalid_close = "closeコマンドの形式が不正です"
+invalid_open = "openコマンドの形式が不正です"
+invalid_status = "statusコマンドの形式が不正です"
+economy_waiting = "Economyサーバーが起動していません"
+jobs_configured = "Jobs rebornの設定が完了しました"
+invalid_dsconf = "dsconfコマンドの形式が不正です。使い方: dsconf <ls|add|rem> [server_name]"
+unknown_command = "不明または無効なコマンドです: {action}"
+error_occurred = "エラーが発生しました: {e}"
