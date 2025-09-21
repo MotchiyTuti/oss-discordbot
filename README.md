@@ -13,6 +13,8 @@ This project is a management tool designed to simplify the start and stop operat
 The `.venv/` virtual environment has already been created and all required packages are installed. To activate the environment and run the program, use the following commands:
 
 ## Usage
+
+### Launch
 ```bash
 source .venv/bin/activate
 python3 main.py
