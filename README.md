@@ -1,2 +1,2 @@
 - [English](README.en-US.md)
-- [“ú–{Œê](README.ja-JP.md)
+- [æ—¥æœ¬èªž](README.ja-JP.md)
