@@ -1,6 +1,7 @@
 # Minecraft Server Bot
 This project is a management tool designed to simplify the start and stop operations of a Minecraft server.  
-It includes features that the author personally finds useful. Built with Python 3 on Ubuntu LTS, the tool is lightweight and optimized for practical, hands-on deployment.
+It includes features that the author personally finds useful.  
+Built with Python 3 on Ubuntu LTS, the tool is lightweight and optimized for practical, hands-on deployment.
 
 ## Features
 - Start and stop the Minecraft server via command
